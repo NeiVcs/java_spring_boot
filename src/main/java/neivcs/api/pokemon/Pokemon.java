@@ -5,6 +5,9 @@ import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+import neivcs.api.pokemon.dto.PokemonData;
+import neivcs.api.pokemon.dto.PokemonUpdateData;
+import neivcs.api.pokemon.enums.Type;
 
 @Table(name = "pokemon")
 @Entity(name = "Pokemon")

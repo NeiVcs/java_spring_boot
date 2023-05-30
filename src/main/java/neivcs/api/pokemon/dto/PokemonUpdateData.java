@@ -1,6 +1,7 @@
-package neivcs.api.pokemon;
+package neivcs.api.pokemon.dto;
 
 import jakarta.validation.constraints.NotNull;
+import neivcs.api.pokemon.enums.Type;
 
 public record PokemonUpdateData(
 

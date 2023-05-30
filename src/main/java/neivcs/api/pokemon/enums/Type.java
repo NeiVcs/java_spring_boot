@@ -1,4 +1,4 @@
-package neivcs.api.pokemon;
+package neivcs.api.pokemon.enums;
 
 public enum Type {
 

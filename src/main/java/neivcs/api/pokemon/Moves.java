@@ -4,6 +4,8 @@ import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+import neivcs.api.pokemon.dto.MovesData;
+import neivcs.api.pokemon.enums.Move;
 
 
 @Embeddable
