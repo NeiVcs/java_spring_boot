@@ -1,4 +1,4 @@
-package neivcs.api.pokemon;
+package neivcs.api.domain.pokemon;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

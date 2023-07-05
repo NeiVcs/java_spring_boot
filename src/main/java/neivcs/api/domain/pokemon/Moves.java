@@ -1,11 +1,11 @@
-package neivcs.api.pokemon;
+package neivcs.api.domain.pokemon;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import neivcs.api.pokemon.dto.MovesData;
-import neivcs.api.pokemon.enums.Move;
+import neivcs.api.domain.pokemon.dto.MovesData;
+import neivcs.api.domain.pokemon.enums.Move;
 
 
 @Embeddable

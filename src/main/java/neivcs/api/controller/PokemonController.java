@@ -1,10 +1,12 @@
 package neivcs.api.controller;
 
 import jakarta.validation.Valid;
-import neivcs.api.pokemon.*;
-import neivcs.api.pokemon.dto.PokemonData;
-import neivcs.api.pokemon.dto.PokemonDetails;
-import neivcs.api.pokemon.dto.PokemonUpdateData;
+import neivcs.api.domain.pokemon.Pokemon;
+import neivcs.api.domain.pokemon.PokemonRepository;
+import neivcs.api.domain.pokemon.*;
+import neivcs.api.domain.pokemon.dto.PokemonData;
+import neivcs.api.domain.pokemon.dto.PokemonDetails;
+import neivcs.api.domain.pokemon.dto.PokemonUpdateData;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

@@ -1,8 +1,8 @@
-package neivcs.api.pokemon.dto;
+package neivcs.api.domain.pokemon.dto;
 
-import neivcs.api.pokemon.Moves;
-import neivcs.api.pokemon.Pokemon;
-import neivcs.api.pokemon.enums.Type;
+import neivcs.api.domain.pokemon.Moves;
+import neivcs.api.domain.pokemon.Pokemon;
+import neivcs.api.domain.pokemon.enums.Type;
 
 public record PokemonDetails(Long id, String race, Type type1, Type type2, int level, Moves moves) {
         public PokemonDetails(Pokemon pokemon){

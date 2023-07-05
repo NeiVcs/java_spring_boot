@@ -1,4 +1,4 @@
-package neivcs.api.infra;
+package neivcs.api.infra.exception;
 
 import jakarta.persistence.EntityNotFoundException;
 import org.springframework.http.ResponseEntity;

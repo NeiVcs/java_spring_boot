@@ -1,7 +1,7 @@
-package neivcs.api.pokemon.dto;
+package neivcs.api.domain.pokemon.dto;
 
 import jakarta.validation.constraints.NotNull;
-import neivcs.api.pokemon.enums.Move;
+import neivcs.api.domain.pokemon.enums.Move;
 
 public record MovesData(
         @NotNull
