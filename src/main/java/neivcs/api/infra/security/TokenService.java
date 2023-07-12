@@ -29,16 +29,14 @@ public class TokenService {
             throw new RuntimeException("Erro ao gerar token jwt", exception);
         }
     }
-   //aqui
     public String getSubject(String tokenJWT){
         try {
             var algorithm = Algorithm.HMAC256(secret);
             return JWT.require(algorithm)
                     .withIssuer("API neivcs.pokemon")
-                    .build().toString();
-//                    .verify(tokenJWT)
-//                    .getSubject();
-
+                    .build()
+                    .verify(tokenJWT)
+                    .getSubject();
         } catch (JWTCreationException exception){
             throw new RuntimeException("Token JWT inválido ou expirado.");
         }
